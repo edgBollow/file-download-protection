@@ -41,7 +41,7 @@ if ( str_contains( $qv_file, '/' ) ) {
 	$filename = substr( $qv_file, strrpos( $qv_file, '/' ) + 1 );
 }
 
-# Remove comment for following code line to ensure that file is downloaded directly
+# Remove comment for following line of code to ensure that file should be downloaded directly
 header( 'Content-Disposition: attachment; filename="' . $filename . '"' );
 
 # Serve file
