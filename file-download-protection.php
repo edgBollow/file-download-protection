@@ -47,4 +47,3 @@ header( 'Content-Disposition: attachment; filename="' . $filename . '"' );
 # Serve file
 readfile( $file );
 exit;
-a
