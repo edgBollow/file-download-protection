@@ -1,4 +1,4 @@
-# Forward all requests in this folder to our PHP script
+# Forward all requests in this folder to PHP script
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} -f
